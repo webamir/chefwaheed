@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Waheed Culinary Academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .baking-pattern {
+            background-image: radial-gradient(#d1d5db 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
+        }
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body class="font-sans bg-white text-gray-800">
+
+<div class="bg-red-700 text-white text-center py-2.5 text-xs md:text-sm font-bold tracking-widest uppercase shadow-md relative z-[60]">
+    <i class="fa-solid fa-bullhorn mr-2 animate-pulse"></i> Professional Online Classes All Over The World | Join Our Masterclass Now
+</div>
+
+<header class="shadow-sm sticky top-0 bg-white/95 backdrop-blur-md z-50 border-b border-gray-100">
+    <nav class="container mx-auto flex justify-between items-center py-3 px-6">
+        <div class="flex items-center space-x-3">
+            <img src="https://i.ibb.co/99jSC2hT/image-2.jpg" alt="Chef Waheed Logo" class="h-12 w-12 rounded-full border-2 border-red-600 shadow-sm">
+            <div class="text-xl md:text-2xl font-black text-gray-900 tracking-tighter uppercase">
+                CHEF <span class="text-red-600">WAHEED</span>
+            </div>
+        </div>
+
+        <ul class="hidden lg:flex space-x-8 font-bold text-sm uppercase tracking-wide">
+            <li><a href="#home" class="text-red-600 border-b-2 border-red-600 pb-1">Home</a></li>
+            <li><a href="#cooking" class="text-gray-600 hover:text-red-600 transition">Cooking</a></li>
+            <li><a href="#baking" class="text-gray-600 hover:text-red-600 transition">Baking</a></li>
+            <li><a href="#tools" class="text-gray-600 hover:text-red-600 transition">Baking Tools</a></li>
+            <li><a href="#contact" class="text-gray-600 hover:text-red-600 transition">Contact</a></li>
+        </ul>
+
+        <div class="lg:hidden text-2xl text-gray-800">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+    </nav>
+</header>
+
+<section id="home" class="relative hero-gradient overflow-hidden min-h-[90vh] flex items-center">
+    
+    <div class="absolute inset-0 baking-pattern opacity-30"></div>
+    <div class="absolute top-10 right-10 text-red-100 opacity-20 hidden lg:block"><i class="fa-solid fa-stroopwafel text-[180px]"></i></div>
+
+    <div class="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10 py-12">
+        
+        <div class="text-left order-2 lg:order-1" data-aos="fade-right">
+            <span class="bg-red-600 text-white text-[10px] md:text-xs font-black px-3 py-1 rounded-sm uppercase tracking-[0.3em] mb-6 inline-block">
+                Masterclass 2026
+            </span>
+            
+            <h1 class="text-4xl md:text-7xl font-black text-gray-900 leading-[1.1] mb-6 uppercase tracking-tighter">
+                Premium <span class="text-red-600">Baking</span> <br>& Cooking Course
+            </h1>
+            
+            <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-lg leading-relaxed border-l-8 border-red-600 pl-6 bg-red-50/50 py-4 rounded-r-xl">
+                <span class="font-bold text-gray-900">100% Commercial Recipes</span> with Precise Calculations. Learn the secrets of professional results from the master himself.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md">
+                <a href="https://wa.me/03052720072" class="flex items-center justify-center bg-red-600 hover:bg-red-700 text-white py-4 px-6 rounded-lg font-black transition-all shadow-xl hover:-translate-y-1">
+                    <i class="fa-brands fa-whatsapp mr-3 text-2xl"></i> WHATSAPP
+                </a>
+                
+                <a href="https://www.instagram.com/muhammdwaheed32?igsh=MThjajNmb3FhN3Z3cA==" class="flex items-center justify-center border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white py-4 px-6 rounded-lg font-black transition-all shadow-md hover:-translate-y-1">
+                    <i class="fa-brands fa-instagram mr-3 text-2xl"></i> INSTAGRAM
+                </a>
+
+                <a href="https://www.facebook.com/chefwaheed0072/" class="flex items-center justify-center bg-blue-600 text-white hover:bg-blue-700 py-3 px-6 rounded-lg font-bold transition-all text-sm uppercase">
+                    <i class="fa-brands fa-facebook-f mr-2"></i> Facebook
+                </a>
+
+                <a href="https://vm.tiktok.com/ZSYugKcWV/" class="flex items-center justify-center bg-black text-white hover:bg-gray-800 py-3 px-6 rounded-lg font-bold transition-all text-sm uppercase">
+                    <i class="fa-brands fa-tiktok mr-2"></i> TikTok
+                </a>
+            </div>
+        </div>
+
+        <div class="order-1 lg:order-2 flex justify-center relative" data-aos="fade-left">
+            <div class="relative">
+                <img 
+                    src="https://i.ibb.co/ycKfjbdX/image-9.jpg" 
+                    alt="Chef Waheed Masterclass" 
+                    class="w-full max-w-[500px] h-auto rounded-3xl shadow-[0_30px_60px_-15px_rgba(0,0,0,0.3)] border-[10px] border-white relative z-10"
+                >
+                
+                <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-2xl border border-gray-100 z-20 hidden md:block animate-float">
+                    <div class="flex items-center gap-4">
+                        <div class="bg-red-100 p-3 rounded-full text-red-600 text-2xl">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm font-bold text-gray-900">Hands-On</p>
+                            <p class="text-xs text-gray-500">Commercial Training</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="absolute -bottom-10 -left-10 w-full h-full bg-red-600 rounded-2xl -z-0 rotate-3 opacity-10"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Premium Cooking Course -->
+<section id="cooking" class="container mx-auto py-20 px-6">
+  <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
+    Premium Cooking Course 
+  </h2>
+
+  <div class="grid grid-cols-1">
+
+    <div class="bg-white shadow-2xl rounded-2xl overflow-hidden" data-aos="zoom-in">
+<!-- IMAGE GRID -->
+<div class="grid md:grid-cols-3 gap-1">
+    <img src="imageschefwaheef/rice.jpg" class="w-full h-48 object-cover">
+    <img src="imageschefwaheef/pulao.webp" class="w-full h-48 object-cover">
+    <img src="imageschefwaheef/karahi.jpg" class="w-full h-48 object-cover">
+    <img src="imageschefwaheef/paya.jpg" class="w-full h-48 object-cover">
+    <img src="imageschefwaheef/sabzi.jpg" class="w-full h-48 object-cover">
+    <img src="imageschefwaheef/curry.jpg" class="w-full h-48 object-cover">
+</div>
+
+
+
+      <!-- CONTENT -->
+      <div class="p-8">
+        <h3 class="text-2xl font-semibold mb-4 text-red-600">
+          Complete Commercial Cooking Course (45 Recipes | Fee only Rs.2500)
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed">
+          <strong>Biryani & Mandi:</strong>
+          Chicken Biryani, Beef Biryani, Mutton Biryani, Chicken Tikka Biryani, Prawn’s Biryani, Fish Biryani, Vegetable Biryani,
+          Chicken Mandi, Mutton Mandi.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Pulao & Sweets:</strong>
+          Kabli Pulao, Mutter Pulao, Degi Chana Pulao, Yakhni Pulao, Allo Tahri, Zarda, Kheer Rabri, Dodh Dulari.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Karahi Special:</strong>
+          Chicken, Mutton & Beef Karahi, Shamwari Karahi, Peshawari Karahi, Chicken Tikka Karahi,
+          Koyla Karahi, Matka Karahi, White Karahi (Shadi Wali).
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Pakistani Salan:</strong>
+          Mutton Paya, Beef Paya, Kaleji Recipe, Qorma, Allo Gosht, Kofty, Nihari.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Sabzi & Daal:</strong>
+          Bhindi Ka Salan, Allo Arvi, Allo Mutter, Karely Ghost, Bengan Burtha,
+          Yellow Dal, Lobiya, Chaany Ki Dal, Murgh Chaany.
+        </p>
+
+        <p class="text-sm text-gray-500 mt-5">
+          Authentic recipes from <strong>3 top Karachi Chefs</strong> with complete
+          <strong>commercial-scale calculations</strong>.
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 1000, once: true });
+</script>
+</body>
+</html>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 1000, once: true });
+</script>
+</body>
+</html>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 1000, once: true });
+</script>
+</body>
+
+</html><!-- Mix Baking Course -->
+<section id="baking" class="container mx-auto py-20 px-6">
+  <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
+    Mix Baking Course
+  </h2>
+
+  <div class="bg-white shadow-xl rounded-2xl overflow-hidden" data-aos="fade-up">
+
+    <!-- Image Grid -->
+<div class="grid md:grid-cols-3 gap-4">
+    <img src="imageschefwaheedmixbaking/cake.jpg" class="h-56 w-full object-cover" alt="Cakes">
+    <img src="imageschefwaheedmixbaking/brownie.webp" class="h-56 w-full object-cover" alt="Brownies">
+    <img src="imageschefwaheedmixbaking/pastry.jpg" class="h-56 w-full object-cover" alt="Pastries">
+
+    <img src="imageschefwaheedmixbaking/cupcake.webp" class="h-56 w-full object-cover" alt="Cupcakes">
+    <img src="imageschefwaheedmixbaking/bread.jpg" class="h-56 w-full object-cover" alt="Breads">
+    <img src="imageschefwaheedmixbaking/puff.jpg" class="h-56 w-full object-cover" alt="Puff Pastry">
+
+    <img src="imageschefwaheedmixbaking/pizza.jpg" class="h-56 w-full object-cover" alt="Pizza">
+    <img src="imageschefwaheedmixbaking/burger.jpg" class="h-56 w-full object-cover" alt="Fast Food">
+    <img src="imageschefwaheedmixbaking/cookiee.jpeg" class="h-56 w-full object-cover" alt="Cookies">
+
+    <img src="imageschefwaheedmixbaking/samosa.webp" class="h-56 w-full object-cover" alt="Snacks">
+    <img src="imageschefwaheedmixbaking/donut.jpg" class="h-56 w-full object-cover" alt="Donuts">
+    <img src="imageschefwaheedmixbaking/mithai.jpg" class="h-56 w-full object-cover" alt="Mithai">
+</div>
+
+
+    <!-- Content -->
+    <div class="p-8">
+     <h3 class="text-2xl font-semibold mb-4 text-red-600">
+  Complete Professional Baking Training (50 Recipes | Fee Only Rs.2500)
+</h3>
+
+      <p class="mb-3"><strong>Cakes:</strong> Red Velvet Cake+ Sponge + Icing, Vanilla Cake+ Sponge + Icing , Cadbury Cake + Sponge + Icing, Kitkat Cake + Sponge +Icing+, Coffee Crunch Cake + Sponge+ Icing, Malteser Cake + Sponge + Icing, Caniker Cake + Sponge +Icing, Pineapple Cake + Sponge Wiping Cream, Black Forest Cake + Sponge + Wiping Cream, Special Vanilla Icing For , Butter Cream Recipe, Plaster Practice, Vanilla Sponge For Practice, Plaster Practice Special Idea, Fondant Apply Idea , Fresh Strawberries Cake, Sugar Free Cake + Sponge + Icing, Dry Fruits Almond Cake, Tea Cake, Fruit Cake.
+.</p>
+
+      <p class="mb-3"><strong>Brownies:</strong> Fudge Brownie, Bakery Style Low Cost Brownie.</p>
+
+      <p class="mb-3"><strong>Pastries:</strong> Pineapple, Black Forest, Chocolate Pastry.</p>
+
+      <p class="mb-3"><strong>Cupcakes:</strong> Vanilla, Chocolate, Mini Cupcakes with Icing.</p>
+
+      <p class="mb-3"><strong>Breads:</strong> Sandwich Bread, Burger Bun, Sugar Free Bread, Pita Bread, Chicken Bread, Rus Papy.</p>
+
+      <p class="mb-3"><strong>Puff Pastry:</strong> Puff Dough, Chicken Patties, Vegetable Patties, Puff Bites.</p>
+
+      <p class="mb-3"><strong>Pizza Master:</strong> Frozen Pizza Bread, Afghani Pizza, Tikka Pizza, Mini Pizza, Cheese Stuffed Pizza, Pizza Sauce, White Sauce.</p>
+
+      <p class="mb-3"><strong>Fast Food:</strong> Zinger Burger, Fried Chicken, Shashlik Stick, Sandwich.</p>
+
+      <p class="mb-3"><strong>Cookies:</strong> Chocolate Chip, Almond Nan Khatai, Jam Phool, Krela, Egg Biscuit, Roat Biscuit.</p>
+
+      <p class="mb-3"><strong>Snacks:</strong> Mayon Garlic Sauce, Allo Samosa, Chicken Samosa, Qeema Samosa.</p>
+
+      <p class="mb-3"><strong>Donuts:</strong> Chocolate & Vanilla.</p>
+
+      <p class="mb-3"><strong>Mithai:</strong> Custard, Barfi, Rasmalai, Methi Tikyan.</p>
+
+      <p class="text-sm text-gray-600 mt-4">
+        Complete commercial baking course with practical techniques, business guidance, and professional results.
+      </p>
+    </div>
+
+  </div>
+</section>
+<!-- Basic to Advance Cake Decoration Course -->
+<section id="baking" class="container mx-auto py-20 px-6">
+  <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
+    Basic to Advance Cake Decoration Course
+  </h2>
+
+  <div class="grid grid-cols-1">
+
+    <div class="bg-white shadow-2xl rounded-2xl overflow-hidden" data-aos="zoom-in">
+
+      <!-- IMAGE GRID -->
+<div class="grid md:grid-cols-3 gap-1">
+    <img src="imageschefwaheedbasictoadvance/fondant.jpg" class="w-full h-48 object-cover" alt="Cake 1">
+    <img src="imageschefwaheedbasictoadvance/theme.jpg" class="w-full h-48 object-cover" alt="Cake 2">
+    <img src="imageschefwaheedbasictoadvance/icing.jpg" class="w-full h-48 object-cover" alt="Cake 3">
+    <img src="imageschefwaheedbasictoadvance/ganache.jpg" class="w-full h-48 object-cover" alt="Cake 4">
+    <img src="imageschefwaheedbasictoadvance/cream-cake.webp" class="w-full h-48 object-cover" alt="Cake 5">
+    <img src="imageschefwaheedbasictoadvance/spong.jpg" class="w-full h-48 object-cover" alt="Cake 6">
+</div>
+
+
+      <!-- CONTENT -->
+      <div class="p-8">
+        <h3 class="text-2xl font-semibold mb-4 text-red-600">
+          Basic to Advance Cake Decoration Course (35 Recipes | Fee only Rs.2500)
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed">
+          <strong>Course Includes:</strong><br>
+          10 Type Fondant Cake, Tea Cake, Acrylic Cake, 6 Types Of Butter Cream, 5 Type Ganache Recipe, 10 Type Icing Recipe, 11 Type Sponge Recipe, 27 Type Cake Theme, 2 Type Cupcakes Recipe + Russian Nozzle Uses, 6 Type Butter Cream Recipe Names (Italian, American, Regular, Swiss, French, German), Plaster Icing For Fondant Cake Special 3 Recipes, Ganache Icing, Fondant Cake Ganache, Ganache Recipe For Piping Drop Border, Ganache Recipe For Fudge Cake & Mirror Luck, Ganache Recipe For Cake Plaster, White Ganache, Icing Recipes (KitKat, Cadbury, Red Velvet, Vanilla, Chocolate Fudge, Caramel, Double Chocolate, Sugar Free, Nutella), Mirror Glaze Recipe, Special Instructions: Whipping Cream Icing, Perfect Beat Ideas, Whipping Cream Rose Ideas With Different Nozzles, Russian Nozzle Uses With Perfect Cream Recipe, Sponge Variety: Egg Base Sponge Vanilla+Icing, Egg Base Sponge Chocolate+Icing, Alaska Sponge+Icing, Oil Base Sponge+Icing, Brownie Sponge For Cake+Icing, Red Velvet Sponge+Icing, Oai Goi Sponge+Icing, Dutch Sponge+Icing, Sugar Free Sponge+Icing, Gluten Free Sponge+Icing, Eggless Sponge+Icing, Cake Themes: 3 Milk Cake, Bento Cake, Ledes Bage Cake, Spider Man Cake, Mickey Mouse Face Cake, Car Cake With Whipping Cream, Car Cake With Fondant, Doll Cake With Whipping Cream, Doll Cake With Fondant, Coco Molin Cake, Ground Cake, 2 Tire Fondant Cake, Airo Plain Cake, Anniversary Cake, Nikah Cake, Dulha Cap Cake, Mehndi Cake, Student Cake, Makeup Cake, Black Tall Cake With Golden Work, Cakesciles Cake, Doll Cake, Shirt Cake, Mousse Cake, Calendar Cake, Cupcakes, Chocolate Cupcakes, Vanilla Cupcakes, Coral, Wheat Flour Macaroon, Cakecical.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          اس کورس کے اندر آپ کو ایک پاؤنڈ سے لے کے 10 پاؤنڈ تک کا کیک سکھایا جائے گا جس میں ٹال کیک، ٹو ٹائر کیک، فلیٹ کیک، بینٹو کیک، اور تھیمز، کلرز، ہر چیز اور بٹر کریم کی ڈیکوریشن شامل ہے۔ یہ کورس بیسک ٹو ایڈوانس ہے۔ سب سے اہم چیز یہ کہ کیک راستے میں سلپ نہ ہو، یا گرمی کی وجہ سے سلپ نہ ہو، اور اونچا بنانے پر ٹیڑھا نہ ہو۔ یہ سب تفصیل کے ساتھ کورس میں سکھایا جاتا ہے۔ آپ آن لائن جوائن کر سکتے ہیں اور ویڈیوز لائف ٹائم سیو رہیں گی۔
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Loaded Fries & Different Sauces Course -->
+<section id="loaded-fries" class="container mx-auto py-20 px-6">
+    <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
+        Loaded Fries & Different Sauces Course
+    </h2>
+
+    <div class="grid grid-cols-1">
+        <div class="bg-white shadow-2xl rounded-2xl overflow-hidden" data-aos="zoom-in">
+
+            <!-- IMAGE GRID -->
+            <div class="grid md:grid-cols-3 gap-1">
+                <img src="chefwaheedfrise/frise2.jpg" class="w-full h-48 object-cover" alt="Loaded Fries 1">
+                <img src="chefwaheedfrise/frise1.png" class="w-full h-48 object-cover" alt="Loaded Fries 2">
+                <img src="chefwaheedfrise/frise3.jpg" class="w-full h-48 object-cover" alt="Loaded Fries 3">
+                <img src="chefwaheedfrise/souce1.jpg" class="w-full h-48 object-cover" alt="Loaded Fries 4">
+                <img src="chefwaheedfrise/souce2.jpg" class="w-full h-48 object-cover" alt="Loaded Fries 5">
+                <img src="chefwaheedfrise/souce3.jpg" class="w-full h-48 object-cover" alt="Loaded Fries 6">
+            </div>
+
+            <!-- CONTENT -->
+            <div class="p-8">
+                <h3 class="text-2xl font-semibold mb-4 text-red-600">
+                    Loaded Fries & Different Sauces Course (25 Recipes | Fee only Rs.1200)
+                </h3>
+
+                <p class="text-gray-700 leading-relaxed">
+                    <strong>Loaded Fries Variety:</strong>
+                    Cheese Loaded, Chicken Loaded, Grilled Loaded, Zinger Loaded, Curly Fries, Buffalo Fries, Peri Peri Fries, Nashville Chicken Fries, Macaroni Loaded Fries, French Fries Regular, BBQ Loaded Fries, Pizza Fries, Hotshot Fries, Crispy Besan Fries
+                </p>
+
+                <p class="text-gray-700 mt-3">
+                    <strong>Sauce Names:</strong>
+                    BBQ Sauce, Mayo Garlic Sauce, Al-Bake White Sauce, Tamarind Sauce, Cheese Sauce, Hot N Sour Sauce, Green Chutney, Butter Garlic, Ranch Sauce, Butter Cheese Sauce, Burger Sauce, Shawarma Hot Sauce, Shawarma Sweet Sauce, Peri Peri Sauce, Pizza Topping White Sauce, Pizza Sauce, Chicken Masala, Regular Fries Masala, Tikka Flavor Masala, Chatpata Masala, Spicy Masala, Peri Peri Masala
+                </p>
+
+                <p class="text-sm text-gray-500 mt-5">
+                    Authentic recipes with complete instructions for 25 loaded fries & sauces combinations.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Cake & Brownies Course -->
+<section id="cake-brownies" class="container mx-auto py-20 px-6">
+  <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
+    Layers | Kababjees | Tahzeeb | Pie in Sky Bakery's Cake & Brownies Course
+  </h2>
+
+  <div class="grid grid-cols-1">
+    <div class="bg-white shadow-2xl rounded-2xl overflow-hidden" data-aos="zoom-in">
+
+      <!-- IMAGE GRID -->
+      <div class="grid md:grid-cols-3 gap-1">
+        <img src="chefwaheedkababjees/cake1.jpg" class="w-full h-48 object-cover" alt="Cake 1">
+        <img src="chefwaheedkababjees/cake2.jpg" class="w-full h-48 object-cover" alt="Cake 2">
+        <img src="chefwaheedkababjees/cake3.jpg" class="w-full h-48 object-cover" alt="Cake 3">
+        <img src="chefwaheedkababjees/cake4.jpg" class="w-full h-48 object-cover" alt="Cake 4">
+        <img src="chefwaheedkababjees/cake5.webp" class="w-full h-48 object-cover" alt="Cake 5">
+        <img src="chefwaheedkababjees/cake6.jpg" class="w-full h-48 object-cover" alt="Cake 6">
+      </div>
+
+      <!-- CONTENT -->
+      <div class="p-8">
+        <h3 class="text-2xl font-semibold mb-4 text-red-600">
+          Layers | Kababjees | Tahzeeb | Pie in Sky Bakery's Cake & Brownies Course (50 Recipes | Fee only Rs. 2500)
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed">
+          <strong>Different Recipe With Different Icing Different Flavors:</strong> Islamabad Tahzeeb Bakery Ki Brownie, Almond Chocolate Brownie, Belgium Cake, Milky Malt Cake6u6yy, Red Velvet Cheese Cake, Carmal Cake.<br><br>
+
+          <strong>Tahzeeb Bakery:</strong> Walnut Fudge Cake, Honey Walnut Cake, Honey Almond Cake, Chocolate Almond Cake, Lemon Curd Cake, Cheese Dry Cake, Marmalade Cake, Mix Dry Fruits Cake, Plain Butter Cake, Coffee Fudge Cake, Chocolate Fudge Cake, Butter Cake With Puff Pastry, Chocolate Fry Fruit Cake, Rich Plum Cake.<br><br>
+
+          <strong>Pie In The Sky Bakery:</strong> Baked Cheese Cake, Mouse Cheese Cake.<br><br>
+
+          <strong>Layers Bakery Lahore Cake:</strong> Lotus Cake, Dairy Milk Cake, German Fudge Cake, Chocolate Heaven Cake, Galaxy Chocolate Cake, Milky Malt Cake, Ferrero Cake, Vanilla Cake, Dream Lava Cake, Chocolate Cupcake, Banana Bread.<br><br>
+
+          <strong>Other Recipes:</strong> Fruit Cake, Marble Cake, Fudge Brownie, Oreo Brownie, Red Velvet Brownie, Caramel Brownie, Peanut Butter Cookie, Brownie Cookie, Lotus Brownie, Nutella Brownie, KitKat Brownie, Salted Caramel Cake, Vanilla Brownie, Strawberry Brownie, Plain Brownie, Regular Bakery Brown, Lunch Box Brownie, Brownie Cake, Molten Brownie, Lemon Brownie, Muffins Brownie, Cupcake Brownie, Vegan Brownie, Molten Lava.<br><br>
+
+          <strong>For Treat:</strong> Wedding Treat Box, Mother's Day Treat Box.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Crumble Cookies & Biscuits Course -->
+<section id="crumble-course" class="container mx-auto py-20 px-6">
+  <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
+    Crumble Cookies, Biscuits, Cake Rusk & Nan Khatai Course
+  </h2>
+
+  <div class="grid grid-cols-1">
+    <div class="bg-white shadow-2xl rounded-2xl overflow-hidden" data-aos="zoom-in">
+
+      <!-- IMAGE GRID -->
+      <div class="grid md:grid-cols-3 gap-1">
+        <img src="chefwaheedcrumble/cookie1.jpg" class="w-full h-48 object-cover" alt="Crumble 1">
+        <img src="chefwaheedcrumble/cookie3.jpg" class="w-full h-48 object-cover" alt="Crumble 2">
+        <img src="chefwaheedcrumble/cookie2.jpg" class="w-full h-48 object-cover" alt="Cookies">
+        <img src="chefwaheedcrumble/bisicut.webp" class="w-full h-48 object-cover" alt="Biscuits">
+        <img src="chefwaheedcrumble/biscuit.jpg" class="w-full h-48 object-cover" alt="Nan Khatai">
+        <img src="chefwaheedcrumble/kahatai.jpg" class="w-full h-48 object-cover" alt="Cake Rusk">
+      </div>
+
+      <!-- CONTENT -->
+      <div class="p-8">
+        <h3 class="text-2xl font-semibold mb-4 text-red-600">
+          Crumble Cookies, Biscuits, Cake Rusk & Nan Khatai Course (50 Recipes | Fee only Rs. 2500)
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed">
+          <strong>Crumble Cookies:</strong>
+          Chocolate Stuffed Crumble, Lotus Stuffed Crumble, Cheese Stuffed Crumble, Nutella Stuffed Crumble, Peanuts Butter Crumble, Caramel Crumble, Chocolate Icing Crumble, Strawberry Crumble, Mango Crumble.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Cookies:</strong>
+          Skillet Flavor, Nutella Skillet Cookie, Chocolate Chip Skillet Cookie, Honey Texture Cookie, Cream Cheese Cookie, Peanut Butter Cookies, Turtle Cookie, Killer Brownie Cookie, Ferrero Rocher Cookie, Dippers Cookie, Chewy Blondie Cookie, Caramel Cornflake Bar, Soy Concha, Chocolate Muffins, Strawberry Muffins, Angoor Muffins, Crinkle Cookies Vanilla, Lemon Card Pie, Red Velvet Cookies, Chocolate Chip Cookies, Subway Cookie, Pista Cookie, Almond Cookies, Fresh Fruit Cookie, Lemon Cookies, Scotcheroos, Cheese Tart, Mini Loaf Dry Fruits Cake (Vanilla & Chocolate).
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Bakery Biscuits (Khasta & Crispy):</strong>
+          Jam Phool Biscuits, Peanut Biscuits, Zeera Biscuits, Marble Biscuits, Krela Biscuits, Hard Icing Chocolate Biscuits, Vanilla Almond Hard Icing Biscuits (Tahzeeb Bakery), Walnuts Coffee Hard Icing Biscuits (Tahzeeb Bakery), Ringo Biscuits, Egg Biscuits, Almond Biscuits, Toti Fruity Biscuits, Royal Icing Dry Fruits Biscuits, Hard Coconut Pink Biscuits, Coconut Biscuits, Cake Rusk, Biscuits.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Sugar Free Biscuits:</strong>
+          Roasted Grams Biscuits, Gluten Free Biscuits.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Nan Khatai:</strong>
+          Khalifa Khati, Almond Khati, Pista Khati, Besan Khati, Vanilla Khati.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Big Size Cake Master Course -->
+<section id="big-cake-course" class="container mx-auto py-20 px-6">
+  <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
+    Big Size Cake Master Course
+  </h2>
+
+  <div class="grid grid-cols-1">
+    <div class="bg-white shadow-2xl rounded-2xl overflow-hidden" data-aos="zoom-in">
+
+      <!-- IMAGE GRID -->
+      <div class="grid md:grid-cols-3 gap-1">
+        <img src="chefwaheedbigcake/choco.jpg" class="w-full h-48 object-cover" alt="Big Cake 1">
+        <img src="chefwaheedbigcake/golden.webp" class="w-full h-48 object-cover" alt="Big Cake 2">
+        <img src="chefwaheedbigcake/peela.jpg" class="w-full h-48 object-cover" alt="Big Cake 3">
+        <img src="chefwaheedbigcake/ring.webp" class="w-full h-48 object-cover" alt="Big Cake 4">
+        <img src="chefwaheedbigcake/chank.jpg" class="w-full h-48 object-cover" alt="Big Cake 5">
+        <img src="chefwaheedbigcake/cartoon.jfif" class="w-full h-48 object-cover" alt="Big Cake 6">
+      </div>
+
+      <!-- CONTENT -->
+      <div class="p-8">
+        <h3 class="text-2xl font-semibold mb-4 text-red-600">
+          Big Size Cake Master Course (14 Different Big Cakes | Fee only Rs. 3000)
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed">
+          <strong>Included:</strong>
+          Red Velvet Ki Cheese Icing, Styrofoam Dummy Cake Handling, Big Size Cake Rotating Technique,
+          Big Size Wedding Cake Ke Liye Ring With Flower Decoration,
+          Different Cake Stand Uses Ideas (Two Tier Setup).
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Different Sponge Recipes:</strong>
+          Vanilla Sponge, Chocolate Sponge, Egg Base Sponge, Red Velvet Sponge,
+          Icing Recipes, Butter Cream, Chocolate Truffle, Vanilla Icing,
+          Chocolate Ganache, Whipping Cream.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Cake Types:</strong>
+          2 Tier Whipping Cream Wedding Cake,
+          3 Tier Wedding Cake With Full Size Ring & Cake Rotation Idea,
+          5 Tier Whipping Cream Birthday Cake With Acrylic Box & Dummy Cake Adjustment,
+          2 Tier Whipping Cream Baby Boy Cake,
+          2 Tier Butter Cream Anniversary Cake,
+          3 Tier Whipping Doll Cake With Ganache,
+          2 Tier Gravity Swinger Cake,
+          12 Pound Full Size Doll Cake,
+          8 Pound Half Size Doll Cake,
+          Twins Cake,
+          3 Tier Butter Cream Swing Cake,
+          2 Tier Truffle Whipping Cream Teddy Bear Clone Cake,
+          2 Tier Railway Train Toy Cake,
+          3 Tier Whipping Cream Red Golden Cake,
+          10 Inches Tall Cream Cake,
+          6 Inches Tall Cream Cake,
+          8 Pound Rectangle Whipping Cream Cake,
+          Football Theme Cake,
+          Anniversary Cake,
+          Doll Cake Full Size,
+          Topper Tray Gravity Cake,
+          Castle Cake.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Fast Food, High Tea, Nashta & Frozen Brunch Course -->
+<section id="fastfood-course" class="container mx-auto py-20 px-6">
+  <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
+    Fast Food, High Tea, Nashta, Frozen Brunch, Halwa Puri Course
+  </h2>
+
+  <div class="grid grid-cols-1">
+    <div class="bg-white shadow-2xl rounded-2xl overflow-hidden" data-aos="zoom-in">
+
+      <!-- IMAGE GRID -->
+      <div class="grid md:grid-cols-3 gap-1">
+        <img src="chefwaheedfastfood/brunch.jpg" class="w-full h-48 object-cover" alt="Fast Food">
+        <img src="chefwaheedfastfood/kabab.jpg" class="w-full h-48 object-cover" alt="High Tea">
+        <img src="chefwaheedfastfood/tea.jpg" class="w-full h-48 object-cover" alt="Nashta">
+        <img src="chefwaheedfastfood/pizzacheez.jpg" class="w-full h-48 object-cover" alt="Frozen Items">
+        <img src="chefwaheedfastfood/halwa.jpg" class="w-full h-48 object-cover" alt="Brunch">
+        <img src="chefwaheedfastfood/beef.jpg" class="w-full h-48 object-cover" alt="Halwa Puri">
+      </div>
+
+      <!-- CONTENT -->
+      <div class="p-8">
+        <h3 class="text-2xl font-semibold mb-4 text-red-600">
+          Fast Food, High Tea, Nashta, Frozen Brunch, Halwa Puri Course
+          (60 Recipes | Fee only Rs. 2500)
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed">
+          <strong>Daily Life Use Recipes:</strong>
+          Leg Piece, Drumsticks, Inject Broast, Nuggets, Chicken Wings Fry,
+          Chicken Tenders, Malai Boti, Chicken Shashlik Fried Rice,
+          Green Boti, Lebanese Boti, Chicken Dabu, Smoked Chicken
+          (with Sauces & Chutneys).
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Kabab :</strong>
+          Shami Kabab (Frozen), Chapli Kabab (Frozen), Beef Kabab (Frozen),
+          Reshmi Kabab, Seekh Kabab (with Sauce & Chutney).
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Beef :</strong>
+          Hunter Beef, Matar Qeema Lahori, Beef Rosh,
+          Beef Tender with Mushroom Sauce.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Pizza :</strong>
+          Crown Crust Pizza, Bihari Kabab Pizza, Malai Boti Pizza,
+          Pizza Sauces, White Pizza Toppings.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Roll:</strong>
+          Tortilla Wrap with Fries, Zinger Roll, Shawarma Roll,
+          Paratha Roll, Bread Roll, Kabab Roll
+          (with Sauce & Chutney).
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Burgers:</strong>
+          Zinger Burger, Cheese Burger, Chili Burger,
+          Beef Burger, Hot Dog (with Sauces).
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Sandwich:</strong>
+          Club Sandwich, Tikka Sandwich, Panini Sandwich,
+          Vegetable Sandwich (with Sauce & Masala).
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Nashta:</strong>
+          Puri, Halwa, Channay, Tarkari, Shashlik with Fried Rice,
+          Lahori Murgh Channay Almond, Khoya Walay,
+          Lachha Paratha (Frozen), Omelette (Restaurant Style).
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Brunch:</strong>
+          Pancake, Waffle, Scrambled Eggs, Benedict Bread,
+          Chicken Bread, Mixed Chaat, Muesli, German Cake,
+          Italian Egg Sandwich, Cupcakes, Garlic Bread,
+          French Toast, Eggs in Spicy Tomato Sauce.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>High Tea:</strong>
+          Mini Sandwich, Chutney Sandwich, Chicken Pakoray,
+          Aloo Pakoray, Chinese Roll, Tea Cake, Mousse Cake,
+          Bun Kabab, Lasagna Cake, Chicken Manchurian,
+          Tikka Boti Frozen Fry, Coleslaw, Garlic Sauce,
+          Frozen Samosa, Tikka Pizza, Pasta, Spaghetti.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Different Sauces:</strong>
+          Tamarind Sauce, Sweet & Sour Sauce, Mayo Garlic,
+          Green Chutney, Cheese Sauce, Dip Sauces.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Sehri & Iftari Course (Ramadan Special) -->
+<section id="sehri-iftari-course" class="container mx-auto py-20 px-6">
+  <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
+    Sehri & Iftari Course (Ramadan Special)
+  </h2>
+
+  <div class="grid grid-cols-1">
+    <div class="bg-white shadow-2xl rounded-2xl overflow-hidden" data-aos="zoom-in">
+
+      <!-- IMAGE GRID -->
+      <div class="grid md:grid-cols-3 gap-1">
+        <img src="chefwaheedramadan/snake.webp" class="w-full h-48 object-cover" alt="Iftari">
+        <img src="chefwaheedramadan/platter.jpg" class="w-full h-48 object-cover" alt="Sehri">
+        <img src="chefwaheedramadan/plate.jpg" class="w-full h-48 object-cover" alt="Iftari Box">
+        <img src="chefwaheedramadan/box.jpg" class="w-full h-48 object-cover" alt="Snacks">
+        <img src="chefwaheedramadan/thanda.webp" class="w-full h-48 object-cover" alt="Sweet Items">
+        <img src="chefwaheedramadan/curd.webp" class="w-full h-48 object-cover" alt="Sauces & Chutney">
+      </div>
+
+      <!-- CONTENT -->
+      <div class="p-8">
+        <h3 class="text-2xl font-semibold mb-4 text-red-600">
+          Ramadan Special Course (60 Recipes | Fee only Rs. 2500)
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed">
+          <strong>Iftari Box Package:</strong>
+          Mini Bite Fry Roll, Mini Bite Burger, Mini Bite Patties,
+          Mini Bite Brownie, Mini Bite Sandwich, Mini Bite Pizza,
+          Mini Bite Samosa, Mini Bite Croissant, Filled Dates.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Sehri Platter:</strong>
+          Soft Paratha, Crispy Paratha, Filled Paratha, Qeema,
+          Lahori Murgh Chana, Aloo Bhujia,
+          Bangladeshi Methi Dahi Piyala,
+          Green Chutney, Sweet & Sour Chutney,
+          Tamarind Date Chutney, Mayo Garlic,
+          Nacho Cheese Sauce.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Frozen & Savory Items:</strong>
+          Pita Bread, Fattoush Salad,
+          Sausage Puff Pastry Variety,
+          Chicken Kachori, Sticks Sandwich,
+          Buffalo Chicken Puff, Chicken Nacho Samosa,
+          Chicken Pakora, Calzone Pizza,
+          Taco with Chicken Filling,
+          Zinger Burger with Fries,
+          Coleslaw, Dawn Frozen Paratha,
+          Samosa Varieties (Aloo, Vegetable, Chinese, Wanton),
+          Channa Chaat, Garlic Bread, Chicken Sticks.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Chutney & Sauce Varieties:</strong>
+          BBQ Chutney, Seekh Kabab Chutney,
+          Tomato Chutney, Caesar Dressing,
+          Mustard Sauce, Tartar Sauce,
+          Zinger Sauce.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Snacks Varieties:</strong>
+          Nuggets, Chicken Pakoray,
+          Chinese Roll, Puff Pizza,
+          Chicken Pastry, Cheese Fries Sandwich.
+        </p>
+
+        <p class="text-gray-700 mt-3">
+          <strong>Sweet Items:</strong>
+          Methi Dahi Baray (Karachi Style Making),
+          Jalebi, Ice Custard Recipe,
+          Cream Fruit Chaat.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Baking Tools & Decoration -->
+<section id="tools" class="container mx-auto py-20 px-6">
+  <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
+    Baking Tools & Decoration
+  </h2>
+
+  <!-- Featured Product: Gravity Cake Stand -->
+  <div class="max-w-3xl mx-auto mb-8">
+    <div class="bg-white shadow-2xl rounded-2xl overflow-hidden text-center" data-aos="zoom-in">
+      <img src="chefwaheedgravitycakestand/stand1.jpeg" class="w-full h-auto object-cover" alt="Gravity Cake Stand Featured">
+      <div class="p-6">
+        <h3 class="text-2xl font-semibold mb-2">Gravity Cake Stand</h3>
+        <p class="text-gray-600 text-sm mb-3">
+          Premium quality gravity cake stand for professional cake decoration.
+        </p>
+        <span class="inline-block bg-red-600 text-white text-sm px-4 py-1 rounded-full">
+          Available for Delivery All over Pakistan
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- See All Button -->
+  <div class="text-center mb-6">
+    <button id="seeAllBtn" class="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700 transition">
+      See All Gravity Cake Stand
+    </button>
+  </div>
+
+  <!-- Hidden Images Grid -->
+  <div id="allImages" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 hidden">
+    <img src="chefwaheedgravitycakestand/stand2.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 2">
+    <img src="chefwaheedgravitycakestand/stand3.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 3">
+    <img src="chefwaheedgravitycakestand/stand4.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 4">
+    <img src="chefwaheedgravitycakestand/stand5.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 5">
+    <img src="chefwaheedgravitycakestand/stand6.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 6">
+    <img src="chefwaheedgravitycakestand/stand7.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 7">
+    <img src="chefwaheedgravitycakestand/stand8.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 8">
+    <img src="chefwaheedgravitycakestand/stand9.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 9">
+    <img src="chefwaheedgravitycakestand/stand10.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 10">
+    <img src="chefwaheedgravitycakestand/stand11.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 11">
+    <img src="chefwaheedgravitycakestand/stand12.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 12">
+    <img src="chefwaheedgravitycakestand/stand13.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 13">
+    <img src="chefwaheedgravitycakestand/stand14.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 14">
+    <img src="chefwaheedgravitycakestand/stand15.jpeg" class="w-full h-auto object-cover rounded-lg" alt="Gravity Cake Stand 15">
+  </div>
+</section>
+
+<!-- JS to toggle hidden images -->
+<script>
+  const btn = document.getElementById('seeAllBtn');
+  const allImages = document.getElementById('allImages');
+
+  btn.addEventListener('click', () => {
+    allImages.classList.toggle('hidden');
+    btn.textContent = allImages.classList.contains('hidden') ? 'See All Gravity Cake Stand' : 'Hide Images';
+  });
+</script>
+
+
+
+
+
+
+<section id="about" class="py-20 bg-white overflow-hidden">
+  <div class="container mx-auto px-6">
+    <div class="flex flex-col lg:flex-row items-center gap-12">
+      
+      <div class="w-full lg:w-1/2 relative" data-aos="fade-right">
+        <div class="absolute -top-6 -left-6 w-full h-full bg-red-600 rounded-2xl opacity-5 hidden md:block"></div>
+        
+        <div class="relative">
+          <img 
+            src="https://i.ibb.co/ycKfjbdX/image-9.jpg" 
+            alt="Chef Waheed in Action" 
+            class="w-full rounded-2xl shadow-2xl border-b-8 border-red-600 relative z-10 object-cover h-[400px] md:h-[500px]"
+          >
+          
+          <div class="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-xl z-20 border border-gray-100 flex items-center gap-4">
+            <div class="bg-red-600 text-white p-3 rounded-lg font-black text-2xl">
+              25+
+            </div>
+            <div class="text-sm font-bold text-gray-800 leading-tight">
+              Years of <br> Experience
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full lg:w-1/2" data-aos="fade-left">
+        <span class="text-red-600 font-black tracking-widest uppercase text-sm mb-2 block">Our Story</span>
+        <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6 leading-tight">
+          Master Your Craft with <span class="text-red-600 italic">Chef Waheed</span>
+        </h2>
+        
+        <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+          Chef Waheed is an experienced baking and cooking instructor dedicated to teaching practical, hands-on skills. He doesn’t just share recipes — he explains the <strong>"Why"</strong> and <strong>"How"</strong> behind every step.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <div class="flex items-start gap-4">
+            <div class="text-red-600 text-2xl"><i class="fa-solid fa-cake-candles"></i></div>
+            <div>
+              <h4 class="font-bold text-gray-900">Baking Classes</h4>
+              <p class="text-sm text-gray-500">Cakes, pastries, and artisanal breads.</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start gap-4">
+            <div class="text-red-600 text-2xl"><i class="fa-solid fa-fire-burner"></i></div>
+            <div>
+              <h4 class="font-bold text-gray-900">Workshops</h4>
+              <p class="text-sm text-gray-500">Modern recipes and everyday meals.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="text-red-600 text-2xl"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+            <div>
+              <h4 class="font-bold text-gray-900">Curated Tools</h4>
+              <p class="text-sm text-gray-500">High-quality Cake Stands & Scrapers.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="text-red-600 text-2xl"><i class="fa-solid fa-award"></i></div>
+            <div>
+              <h4 class="font-bold text-gray-900">Real Skills</h4>
+              <p class="text-sm text-gray-500">Commercial techniques that work.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gray-50 border-l-4 border-red-600 p-5 rounded-r-xl italic text-gray-700">
+          "No complicated jargon. Just real skills, hands-on learning, and tools that help you achieve the best results."
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Contact / Footer -->
+<footer id="contact" class="bg-gray-900 text-white py-14">
+  <div class="container mx-auto px-6 text-center space-y-6">
+
+    <h3 class="text-2xl font-semibold tracking-wide">
+      Chef Waheed Culinary Academy
+    </h3>
+
+    <p class="text-gray-300">
+      Gujranwala Physical Academy | Online Classes Worldwide
+    </p>
+
+    <!-- Contact Number -->
+    <p class="text-lg font-medium">
+      📞 <a href="tel:+923052720072" class="hover:text-green-400 transition">
+        +92 305 2720072
+      </a>
+    </p>
+
+    <!-- Social Icons -->
+    <div class="flex justify-center space-x-8 text-2xl mt-4">
+      <a href="https://wa.me/923052720072" target="_blank" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp hover:text-green-500 transition"></i>
+      </a>
+      <a href="https://www.instagram.com/muhammdwaheed32?igsh=MThjajNmb3FhN3Z3cA==" target="_blank" aria-label="Instagram">
+        <i class="fa-brands fa-instagram hover:text-pink-500 transition"></i>
+      </a>
+      <a href="https://www.facebook.com/chefwaheed0072/" target="_blank" aria-label="Facebook">
+        <i class="fa-brands fa-facebook hover:text-blue-500 transition"></i>
+      </a>
+      <a href="https://vm.tiktok.com/ZSYugKcWV/" target="_blank" aria-label="TikTok">
+        <i class="fa-brands fa-tiktok hover:text-red-500 transition"></i>
+      </a>
+    </div>
+
+    <p class="text-sm text-gray-400 mt-6">
+      &copy; 2026 Chef Waheed Culinary Academy. All Rights Reserved.
+    </p>
+
+  </div>
+</footer>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000, once: true });
+</script>
+</body>
+</html>
+
